@@ -155,7 +155,7 @@ def draw_boxes(filename, v_boxes, v_labels, v_scores):
 
 
 # Call the method draw_boxes to draw what we found
-draw_boxes('people.jpg', v_boxes, v_labels, v_scores)
+draw_boxes(photo_filename, v_boxes, v_labels, v_scores)
 
 
 
